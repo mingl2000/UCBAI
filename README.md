@@ -4,7 +4,7 @@
     - VotingClassifier receied best AUC score 0.9432 among all the models studied 
         - VotingClassifier uses all all the best estimates using GridSearchCV from LogisticRegression, KNN, DecisionTreeClassifier, SVC
 
-### data preprocessing
+### Data preprocessing
     - The OrdinalEncoder for education, month, day_of_week, job is used.
         - This improves AUC score slightly, but no much.
         - Note: month, day_of_week, job are not usualy candidates for OrdinalEncoder
