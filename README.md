@@ -18,6 +18,6 @@
 
 
     ### Implementation reference:
-        - [prompt_III.ipynb](https://github.com/mingl2000/UCBAI/prompt_III.ipynb)
+        - [prompt_III.ipynb](https://github.com/mingl2000/UCBAI/blob/main/prompt_III.ipynb)
     
 
