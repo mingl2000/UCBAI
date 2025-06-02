@@ -46,6 +46,19 @@
         - DecisionTreeClassifier and GridSearchCV of GridSearchCV are the fastest besides the baseline model.
         - RandomForestClassifier is also very fast with very good AUC score.
     
+### Interpretation of coefficients in models:
+    - Coefficients for LogisticRegression represent the contribution of each feature to the log-odds of the predicted outcome
+        - Top 10 important coefficients found by logistic regression model:
+            - Log-odds of outcome increases when the feature value i increases:
+                - mar in month
+                - duration
+                - cons.price.idx
+                - euribor3m
+            - Log-odds of outcome decreases when the feature value i increases:
+                - emp.var.rate
+                - jun/may/nov in month
+                - poutcome_failure
+
 
 ### Implementation reference:
         - [prompt_III.ipynb](https://github.com/mingl2000/UCBAI/blob/main/prompt_III.ipynb)
